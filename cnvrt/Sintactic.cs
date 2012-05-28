@@ -324,7 +324,7 @@ namespace cnvrt
             AdaugareInCod("\r\n");
         }
         /// <summary>
-        /// Se apeleaza in cazul unei erori si se va afisa erorile la sfarsitul compilarii
+        /// Se apeleaza in cazul unei erori si se afisa erorile la sfarsitul compilarii
         /// </summary>
         /// <param name="errorString">Eroarea care se va adauga la sirul de erori</param>
         private void Errors(string errorString)
@@ -424,7 +424,7 @@ namespace cnvrt
             Instructii_Begin_End();
         }
         /// <summary>
-        /// functie de determinare a variabilelo
+        /// functie de determinare a variabilel
         /// </summary>
         private void BlocVariabile()
         {
@@ -805,7 +805,7 @@ namespace cnvrt
             return true;
         }
         /// <summary>
-        /// verificara ciclica daca exista mai multe instructii in cadrul blocului de program
+        /// verificare ciclica daca exista mai multe instructii in cadrul blocului de program
         /// </summary>
         /// <returns>false in cazul unei erori</returns>
         private bool Instructii_repetare()

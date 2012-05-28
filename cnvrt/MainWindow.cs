@@ -150,6 +150,5 @@ namespace cnvrt
         {
             Clipboard.SetText(cBox.Text);
         }
-
     }
 }

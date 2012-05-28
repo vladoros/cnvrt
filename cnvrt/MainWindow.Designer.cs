@@ -209,11 +209,11 @@ namespace cnvrt
             this.ClientSize = new System.Drawing.Size(839, 576);
             this.Controls.Add(this.cBox);
             this.Controls.Add(this.compileButton);
-            this.Controls.Add(this.openfileButton);
             this.Controls.Add(this.pascalBox);
-            this.Controls.Add(this.analizareButton);
             this.Controls.Add(this.rightLabel);
+            this.Controls.Add(this.openfileButton);
             this.Controls.Add(this.leftLabel);
+            this.Controls.Add(this.analizareButton);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
